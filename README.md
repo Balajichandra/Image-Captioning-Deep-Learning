@@ -30,7 +30,7 @@ Start and end sequence need to be added to the captions because the captions var
 <br>
 ### 3. Extracting features from images
 * After dealing with the captions we then go ahead with processing the images. For this we make use of the pre-trained [Resnet-50] weights.
-* Instead of using this pre-trained model for image classification as it was intended to be used. We just use it for extracting the features from the images. In order to do that we need to get rid of the last output layer from the model. The model then generates **4096** features from taking images of size (224,224,3).
+* Instead of using this pre-trained model for image classification as it was intended to be used. We just use it for extracting the features from the images. In order to do that we need to get rid of the last output layer from the model. The model then generates **2048** features from taking images of size (224,224,3).
 
 Model: "model_1"
 __________________________________________________________________________________________________
